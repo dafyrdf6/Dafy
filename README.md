@@ -181,7 +181,7 @@
     <div class="hint" id="hint">(met "oui" stp)</div>
 
     <section class="result" id="result">
-      <h2>YES!🎉</h2>
+      <h2>YES!🎉 (envoie sur snap)</h2>
       <img
         class="fireworks"
         src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamM2OTRxYmN5OTMwbHBqcmpueGZtenlhMGhlY3A1c3kzc2N6b3kxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k2lKPMAUEklWC1cgne/giphy.gif"
