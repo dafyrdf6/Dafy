@@ -1,7 +1,8 @@
-<html lang="en"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Will you be my Valentine?</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Envoie tes pied</title>
 
   <!-- Confetti library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
@@ -9,7 +10,7 @@
   <style>
     :root {
       --bg1: #FFA1C3;
-      --bg2: #ff3e91;
+      --bg2: #ffeef6;
       --card: #ffffffcc;
       --yes: #ff3b7a;
       --yesHover: #ff1f68;
@@ -128,57 +129,64 @@
 </head>
 
 <body>
-  <canvas id="confettiCanvas" width="1107" height="972" style="width: 100vw; height: 100vh;"></canvas>
+  <canvas id="confettiCanvas"></canvas>
 
   <main class="card">
     <!-- ANIMAL WITH HEART -->
     <svg class="art" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="fur" x1="0" x2="1">
-          <stop offset="0" stop-color="#f7c7a1"></stop>
-          <stop offset="1" stop-color="#f2a97b"></stop>
+          <stop offset="0" stop-color="#f7c7a1"/>
+          <stop offset="1" stop-color="#f2a97b"/>
         </linearGradient>
         <linearGradient id="heart" x1="0" x2="1">
-          <stop offset="0" stop-color="#ff4d7d"></stop>
-          <stop offset="1" stop-color="#ff1f68"></stop>
+          <stop offset="0" stop-color="#ff4d7d"/>
+          <stop offset="1" stop-color="#ff1f68"/>
         </linearGradient>
       </defs>
 
       <path d="M250 50 C250 33 270 25 282 38
                C294 25 314 33 314 50
                C314 78 282 92 282 106
-               C282 92 250 78 250 50Z" fill="url(#heart)"></path>
+               C282 92 250 78 250 50Z"
+            fill="url(#heart)"/>
 
       <path d="M90 120 C90 70 140 40 190 60
                C240 40 290 70 290 120
                C290 180 240 210 190 210
-               C140 210 90 180 90 120Z" fill="url(#fur)"></path>
+               C140 210 90 180 90 120Z"
+            fill="url(#fur)"/>
 
-      <path d="M110 92 L95 55 L140 78 Z" fill="#f2a97b"></path>
-      <path d="M270 92 L285 55 L240 78 Z" fill="#f2a97b"></path>
+      <path d="M110 92 L95 55 L140 78 Z" fill="#f2a97b"/>
+      <path d="M270 92 L285 55 L240 78 Z" fill="#f2a97b"/>
 
-      <circle cx="160" cy="130" r="8"></circle>
-      <circle cx="220" cy="130" r="8"></circle>
+      <circle cx="160" cy="130" r="8"/>
+      <circle cx="220" cy="130" r="8"/>
 
       <path d="M190 144 C186 144 182 148 182 152
                C182 160 190 164 190 170
                C190 164 198 160 198 152
-               C198 148 194 144 190 144Z" fill="#ff7aa2"></path>
+               C198 148 194 144 190 144Z"
+            fill="#ff7aa2"/>
     </svg>
 
-    <h1>nirali will you be my valentine?</h1>
+    <h1>Envoie tes pied stp</h1>
 
-    <section class="button-zone" id="zone" style="display: none;">
-      <button id="yesBtn" style="transform: translateY(-50%) scale(2.2);">Yes</button>
-      <button id="noBtn" style="left: 407.419px; top: 91.9048px; transform: none;">No</button>
+    <section class="button-zone" id="zone">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
     </section>
 
     <!-- HINT -->
-    <div class="hint" id="hint" style="display: none;">Please put "Yes"</div>
+    <div class="hint" id="hint">(met "oui" stp)</div>
 
-    <section class="result" id="result" style="display: block;">
-      <h2>YAY! 🎉</h2>
-      <img class="fireworks" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamM2OTRxYmN5OTMwbHBqcmpueGZtenlhMGhlY3A1c3kzc2N6b3kxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k2lKPMAUEklWC1cgne/giphy.gif" alt="Fireworks">
+    <section class="result" id="result">
+      <h2>YES!🎉</h2>
+      <img
+        class="fireworks"
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamM2OTRxYmN5OTMwbHBqcmpueGZtenlhMGhlY3A1c3kzc2N6b3kxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k2lKPMAUEklWC1cgne/giphy.gif"
+        alt="Fireworks"
+      />
     </section>
   </main>
 
@@ -289,9 +297,7 @@
       fullScreenConfetti();
     });
   </script>
+</body>
+</html>
 
 
-
-
-
-</body></html>
