@@ -5,7 +5,7 @@
   <title>Will you be my Valentine?</title>
  <style>
     :root {
-      --bg1: #ffd6e7;
+      --bg1: #99D6FF;
       --bg2: #99D6FF;
       --card: #ffffffcc;
       --yes: #ff3b7a;
