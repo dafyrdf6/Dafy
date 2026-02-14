@@ -170,7 +170,7 @@
             fill="#ff7aa2"/>
     </svg>
 
-    <h1>Envoie tes pied stp</h1>
+    <h1>Do you want to be my Valentine?</h1>
 
     <section class="button-zone" id="zone">
       <button id="yesBtn">Yes</button>
@@ -181,10 +181,10 @@
     <div class="hint" id="hint">(met "oui" stp)</div>
 
     <section class="result" id="result">
-      <h2>🎉(envoie sur snap stp)</h2>
+      <h2>🎉🎉</h2>
       <img
         class="fireworks"
-        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamM2OTRxYmN5OTMwbHBqcmpueGZtenlhMGhlY3A1c3kzc2N6b3kxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k2lKPMAUEklWC1cgne/giphy.gif"
+        src="https://i.pinimg.com/1200x/6e/63/62/6e6362a843392953ae27d44e2cc78380.jpg"
         alt="Fireworks"
       />
     </section>
