@@ -2,14 +2,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Envoie tes pied</title>
+  <title>Will you be my Valentine?</title>
 
   <!-- Confetti library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
   <style>
     :root {
-      --bg1: #FFA1C3;
+      --bg1: #ffd6e7;
       --bg2: #ffeef6;
       --card: #ffffffcc;
       --yes: #ff3b7a;
@@ -170,7 +170,7 @@
             fill="#ff7aa2"/>
     </svg>
 
-    <h1>Do you want to be my Valentine?</h1>
+    <h1>Will you be my valentine?</h1>
 
     <section class="button-zone" id="zone">
       <button id="yesBtn">Yes</button>
@@ -178,13 +178,13 @@
     </section>
 
     <!-- HINT -->
-    <div class="hint" id="hint">(met "oui" stp)</div>
+    <div class="hint" id="hint">Please</div>
 
     <section class="result" id="result">
-      <h2>🎉🎉</h2>
+      <h2>🎉❤️🥰🎉</h2>
       <img
         class="fireworks"
-        src="https://i.pinimg.com/1200x/6e/63/62/6e6362a843392953ae27d44e2cc78380.jpg"
+        src="https://i.pinimg.com/736x/93/91/a3/9391a302a06fa6cc41894b7986eefa60.jpg"
         alt="Fireworks"
       />
     </section>
